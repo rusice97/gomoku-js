@@ -1,0 +1,76 @@
+<html style="font-size:40px;">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content=" initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<link href="xxy.css" rel="stylesheet">
+	<link href="icon/iconfont.css" rel="stylesheet">
+</head>
+<body>
+<div id="or1" class="or1">
+	<div class="main">
+		<div>
+			<p>
+				<a href="#pk1">玩家对战</a>
+			</p>
+			<p>
+				<a href="#pk2">系统对战</a>
+			</p>
+		</div>
+	</div>
+</div>
+<div id="or2" class="or2">
+	<p>
+		<a class="iconfont icon-shouye_shouye" href="#index"></a>
+		<a class="iconfont icon-mobileicontemplate" id="init" style="display:none" onclick="xxy.popup('是否重来','确定','取消',function(e){
+		if(e==0){
+			document.getElementById('init').style.display='none';
+			xxyc();
+		}else{
+			xxy.toast('已取消');
+		}
+	});"></a>
+	</p>
+	<div id="main"></div>
+</div>
+<script src="xxy.js"></script>
+<script src="click.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
